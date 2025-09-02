@@ -26,3 +26,23 @@ body {
   background-color: var(--background-color);
 }
 
+a {
+  text-decoration: none;
+  color: inherit; /*cor herdada do pai, color-secondary*/
+}
+
+a:hover {
+  color: var(--brand-color);
+  text-decoration: underline;
+}
+
+.container {
+  padding-inline: 32px; /*colocar apenas nas laterais*/
+  max-width: 1280px;
+  margin-inline: auto; /*alinha a página ao meio, mexe na laterais deixando automatica*/
+}
+
+.bg-surface-color {
+  background-color: var(--surface-color);
+}
+
