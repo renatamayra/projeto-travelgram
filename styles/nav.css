@@ -1,6 +1,6 @@
 nav {
   display: flex; /*elemento ao lado do outro*/
-  justify-content: space-between;
+  justify-content: space-between; /*adiciona espaço entre os elementos */
   align-items: center;
 
   line-height: 0; /*tira qualquer espaço extra*/
